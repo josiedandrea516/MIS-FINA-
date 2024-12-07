@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Coffee Me Up</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Team</h1>
+        <nav>
+            <a href="index.html">About Us</a>
+            <a href="employees.html">Our Team</a>
+            <a href="products.html">Products</a>
+            <a href="policies.html">Policies</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="images/ethan.jpg" alt="Ethan Miller">
+                <h3>Ethan Miller</h3>
+                <p>Barista | 2 years | Ext: 101</p>
+            </div>
+            <div class="employee">
+                <img src="images/sophia.jpg" alt="Sophia Ramirez">
+                <h3>Sophia Ramirez</h3>
+                <p>Barista | 3 months | Ext: 102</p>
+            </div>
+               <div class="employee">
+                <img src="images/noah.jpg" alt="Noah Carter">
+                <h3>Noah Carter</h3>
+                <p>Barista | 1.5 years | Ext: 103</p>
+            </div>
+               <div class="employee">
+                <img src="images/olivia.jpg" alt="Olivia Bennett">
+                <h3>Olivia Bennett</h3>
+                <p>Barista | 4 years | Ext: 104</p>
+            </div>
+               <div class="employee">
+                <img src="images/liam.jpg" alt="Liam Johnson">
+                <h3>Liam Johnson</h3>
+                <p>Barista | 6 years | Ext: 105</p>
+            </div>
+               <div class="employee">
+                <img src="images/ava.jpg" alt="Ava Collins">
+                <h3>Ava Collins</h3>
+                <p>Barista | 6 years | Ext: 106</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Coffee Me Up</p>
+    </footer>
+</body>
+</html>
