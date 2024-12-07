@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Coffee Me Up</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <a href="index.html">About Us</a>
+            <a href="employees.html">Our Team</a>
+            <a href="products.html">Products</a>
+            <a href="policies.html">Policies</a>
+            <a href="contact_us.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Offerings</h2>
+            <div>
+                <img src="images/coffee_beans.jpg" alt="Coffee Beans">
+                <p>Fair-Trade Coffee Beans</p>
+            </div>
+            <div>
+                <img src="images/cold_brew.jpg" alt="Cold Brew">
+                <p>Cold Brew</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Coffee Me Up</p>
+    </footer>
+</body>
+</html>
