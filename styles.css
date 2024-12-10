@@ -1,31 +1,52 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f4f4f9;
+    color: #4E342E;
+    background-color: #FFF8E1;
+    line-height: 1.6;
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 1rem;
+    background: #3E2723;
+    color: #FFD54F;
+    padding: 1rem 0;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
 }
 
 nav a {
-    color: white;
+    color: #FFD54F;
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
-main {
-    padding: 20px;
+nav a:hover {
+    color: #FFF8E1;
 }
 
-h1, h2 {
-    color: #4CAF50;
+main {
+    padding: 20px;
+    background: #FAF3E0;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #5D4037;
+    text-align: center;
+}
+
+h3 {
+    color: #795548;
 }
 
 .team-member, .product {
@@ -33,15 +54,49 @@ h1, h2 {
     width: 200px;
     margin: 10px;
     text-align: center;
+    background: #FFF8E1;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img, .product img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 footer {
-    background: #4CAF50;
-    color: white;
+    background: #3E2723;
+    color: #FFD54F;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
 }
+
+footer p {
+    margin: 0;
+}
+
+button, a.button {
+    background: #795548;
+    color: #FFF8E1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button:hover, a.button:hover {
+    background: #5D4037;
+}
+
+iframe {
+    border: 2px solid #D7CCC8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
 
