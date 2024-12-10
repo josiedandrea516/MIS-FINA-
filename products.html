@@ -3,10 +3,41 @@
 <head>
     <title>Products - Coffee Me Up</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            color: #6b4226;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Our Products</h1>
+        <h1>Our Sustainable Products</h1>
         <nav>
             <a href="index.html">About Us</a>
             <a href="employees.html">Our Team</a>
@@ -16,15 +47,31 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Our Offerings</h2>
-            <div>
-                <img src="coffee_beans.jpg" alt="Coffee Beans" width="200" height="150">
-                <p>Fair-Trade Coffee Beans</p>
+        <section class="products">
+            <div class="product">
+                <img src="coffee_beans.jpg" alt="Organic Fair-Trade Coffee Beans">
+                <h3>Organic Fair-Trade Coffee Beans</h3>
+                <p>Sustainably sourced coffee beans from fair-trade farms. Available in light, medium, and dark roasts. Packaged in compostable bags.</p>
             </div>
-            <div>
-                <img src="cold_brew.jpg" alt="Cold Brew" width="200" height="150">
-                <p>Cold Brew</p>
+            <div class="product">
+                <img src="reusable_cup.jpg" alt="Reusable Coffee Cups">
+                <h3>Reusable Coffee Cups</h3>
+                <p>Stylish, durable coffee cups made from bamboo or stainless steel. Available in multiple colors and sizes.</p>
+            </div>
+            <div class="product">
+                <img src="cold_brew.jpg" alt="Cold Brew Kits">
+                <h3>Cold Brew Kits</h3>
+                <p>A home cold brew starter kit with a reusable glass jar, stainless steel filter, and eco-friendly packaging.</p>
+            </div>
+            <div class="product">
+                <img src="coffee_pods.jpg" alt="Compostable Coffee Pods">
+                <h3>Compostable Coffee Pods</h3>
+                <p>Biodegradable coffee pods in flavors like Vanilla Hazelnut, Mocha, and Espresso Roast. Compatible with most coffee machines.</p>
+            </div>
+            <div class="product">
+                <img src="pastries.jpg" alt="Locally-Sourced Pastries">
+                <h3>Locally-Sourced Pastries</h3>
+                <p>Freshly baked pastries made with organic, locally sourced ingredients. Includes vegan and gluten-free options.</p>
             </div>
         </section>
     </main>
